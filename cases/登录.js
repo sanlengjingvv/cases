@@ -14,5 +14,11 @@ describe('登录', function () {
             assert.fail('提示服务端报错，错误码 1001')
         })
     })
+    
+    describe('登录失败', function () {
+        it('不匹配的用户名和密码', function () {
+            assert.ok(true)
+        })
+    })
 
 })
