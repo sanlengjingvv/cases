@@ -15,9 +15,4 @@ describe('登录', function () {
         })
     })
 
-    describe('登录失败', function () {
-        it('不匹配的用户名和密码', function () {
-            assert.ok(true)
-        })
-    })
 })
